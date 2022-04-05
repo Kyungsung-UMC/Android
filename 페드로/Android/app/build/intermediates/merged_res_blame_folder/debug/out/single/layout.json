@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Com\\Documents\\Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Com\\Documents\\Android\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Com\\Documents\\Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_locker.xml",
+        "source": "C:\\Users\\Com\\Documents\\Android\\app\\src\\main\\res\\layout\\fragment_locker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Com\\Documents\\Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Com\\Documents\\Android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Com\\Documents\\Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_look.xml",
+        "source": "C:\\Users\\Com\\Documents\\Android\\app\\src\\main\\res\\layout\\fragment_look.xml"
+    },
+    {
+        "merged": "C:\\Users\\Com\\Documents\\Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_song.xml",
+        "source": "C:\\Users\\Com\\Documents\\Android\\app\\src\\main\\res\\layout\\activity_song.xml"
+    },
+    {
+        "merged": "C:\\Users\\Com\\Documents\\Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_search.xml",
+        "source": "C:\\Users\\Com\\Documents\\Android\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Com\\Documents\\Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_album.xml",
+        "source": "C:\\Users\\Com\\Documents\\Android\\app\\src\\main\\res\\layout\\fragment_album.xml"
+    }
+]
