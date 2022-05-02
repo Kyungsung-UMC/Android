@@ -193,7 +193,7 @@
 
         <!-- 종합 -->
         <TextView
-            android:id="@+id/hoem_pannel_music_total_mt"
+            android:id="@+id/home_pannel_music_total_mt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="종합"
@@ -208,7 +208,7 @@
 
         <!-- 국내 -->
         <TextView
-            android:id="@+id/hoem_pannel_music_domestic_mt"
+            android:id="@+id/home_pannel_music_domestic_mt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="국내"
@@ -216,12 +216,12 @@
             android:layout_marginStart="20dp"
             android:textColor="@color/gray_color"
             app:layout_constraintTop_toBottomOf="@+id/home_pannel_bakcground_iv"
-            app:layout_constraintStart_toEndOf="@+id/hoem_pannel_music_total_mt"
+            app:layout_constraintStart_toEndOf="@+id/home_pannel_music_total_mt"
             app:layout_constraintBottom_toBottomOf="@+id/home_pannel_btn_arrow_more"/>
 
         <!-- 해외 -->
         <TextView
-            android:id="@+id/hoem_pannel_music_foreign_mt"
+            android:id="@+id/home_pannel_music_foreign_mt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="해외"
@@ -229,13 +229,13 @@
             android:textColor="@color/gray_color"
             android:layout_marginStart="20dp"
             app:layout_constraintTop_toBottomOf="@+id/home_pannel_bakcground_iv"
-            app:layout_constraintStart_toEndOf="@id/hoem_pannel_music_domestic_mt"
+            app:layout_constraintStart_toEndOf="@id/home_pannel_music_domestic_mt"
             app:layout_constraintBottom_toBottomOf="@+id/home_pannel_btn_arrow_more"/>
 
 
         
         <HorizontalScrollView
-            android:id="@+id/hoem_today_music_oversea_hs"
+            android:id="@+id/home_today_music_oversea_hs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -245,8 +245,8 @@
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/hoem_pannel_music_total_mt">
-            
+            app:layout_constraintTop_toBottomOf="@+id/home_pannel_music_total_mt">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -369,20 +369,30 @@
         </HorizontalScrollView>
 
 
-        <ImageView
+<!--        <ImageView-->
+<!--            android:id="@+id/home_banner_vp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:src="@drawable/img_home_viewpager_exp"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/hoem_today_music_oversea_hs"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent" />-->
+
+        <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/home_banner_vp"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:adjustViewBounds="true"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/img_home_viewpager_exp"
-            app:layout_constraintTop_toBottomOf="@+id/hoem_today_music_oversea_hs"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/home_today_music_oversea_hs"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
 
 
-        <!--매일 들어도 좋은 팟케스트 -->
+
+                <!--매일 들어도 좋은 팟케스트 -->
         <TextView
             android:id="@+id/home_today_music_album_rv"
             android:layout_width="wrap_content"
