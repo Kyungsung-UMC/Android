@@ -122,7 +122,7 @@
         app:layout_constraintEnd_toEndOf="@+id/song_lyrics_01" />
 
     <ImageView
-        android:id="@+id/ic_my_like_off"
+        android:id="@+id/song_like_iv"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginEnd="80dp"
@@ -140,36 +140,51 @@
         android:layout_marginTop="30dp"
         android:src="@drawable/btn_player_unlike_off"
         app:layout_constraintTop_toBottomOf="@+id/song_lyrics_02"
-        app:layout_constraintStart_toEndOf="@+id/ic_my_like_off"
-        app:layout_constraintBottom_toBottomOf="@+id/ic_my_like_off" />
+        app:layout_constraintStart_toEndOf="@+id/song_like_iv"
+        app:layout_constraintBottom_toBottomOf="@+id/song_like_iv" />
 
     <!--시크바 -->
+
     <SeekBar
-        android:id="@+id/seekbar_01"
+        android:id="@+id/song_progress_sb"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:max="100"
-        app:layout_constraintTop_toBottomOf="@+id/ic_my_like_off" />
+        android:layout_height="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@null"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:progress="0"
+        android:progressBackgroundTint="@color/song_player_bg"
+        android:progressTint="@color/song_player"
+        android:thumb="@color/transparent"
+        android:max="100000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/song_like_iv"  />
+
+
 
     <!--시크바 시작 시간 -->
     <TextView
-        android:id="@+id/start_time"
+        android:id="@+id/song_start_time_tv"
         android:layout_width="40dp"
         android:layout_height="20dp"
         android:text="00:00"
         android:layout_marginStart="10dp"
         android:textColor="@color/neon_Blue"
-        app:layout_constraintTop_toBottomOf="@+id/seekbar_01"
+        app:layout_constraintTop_toBottomOf="@+id/song_progress_sb"
         app:layout_constraintStart_toStartOf="parent" />
 
     <!-- 시크바 끝나는 시간 -->
     <TextView
-        android:id="@+id/complete_time"
+        android:id="@+id/song_end_time_tv"
         android:layout_width="40dp"
         android:layout_height="20dp"
         android:text="00:00"
         android:layout_marginEnd="10dp"
-        app:layout_constraintTop_toBottomOf="@+id/seekbar_01"
+        app:layout_constraintTop_toBottomOf="@+id/song_progress_sb"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <!--반복 버튼 -->
@@ -204,7 +219,7 @@
         app:layout_constraintBottom_toTopOf="@+id/related_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekbar_01" >
+        app:layout_constraintTop_toBottomOf="@+id/song_progress_sb" >
 
         <ImageView
             android:id="@+id/song_previous_iv"
