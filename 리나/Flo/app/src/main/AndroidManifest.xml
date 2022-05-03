@@ -11,18 +11,21 @@
         android:theme="@style/Theme.FLO">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".SongActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashTheme">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
+        <activity android:name="com.example.flo.SongActivity"/>
     </application>
 
 </manifest>
+
+<!--activity -> 앱의 프로필 정보라고 생각하면 됨-->
+<!--receiver -> 알아야될 상황이 있으면 알려즘-->
+<!--service -> UI 없이 앱이 백그라운드에 갔을때 실행시키고 싶은것들을 넣으면 됨  -->
+<!--provider -> 다른 어플리케이션 정보를 받아 올 수 있도록 해줌-->
+<!--이것들을 선언해 주지 않으면 작동이 되지 않음, 필요시 꼭 적어주기!-->
