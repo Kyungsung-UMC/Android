@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/detail_title_dt_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="곡명"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/detail_title_name_tn_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="라일락"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/detail_title_dt_01" />
+
+
+        <TextView
+            android:id="@+id/detail_title_dt_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="작사"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_title_dt_01" />
+
+        <TextView
+            android:id="@+id/detail_title_name_tn_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이유(IU)"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/detail_title_name_tn_01"
+            app:layout_constraintStart_toEndOf="@+id/detail_title_dt_02" />
+
+        <TextView
+            android:id="@+id/detail_title_dt_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="작곡"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_title_dt_02" />
+
+
+        <TextView
+            android:id="@+id/detail_title_name_tn_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="임수호/Dr.JO/웅킴/N!ko"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/detail_title_name_tn_02"
+            app:layout_constraintStart_toEndOf="@+id/detail_title_dt_02" />
+
+        <TextView
+            android:id="@+id/detail_title_dt_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="편곡"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_title_dt_03" />
+
+        <TextView
+            android:id="@+id/detail_title_name_tn_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="임수호/웅킴/N!ko"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/detail_title_name_tn_03"
+            app:layout_constraintStart_toEndOf="@+id/detail_title_dt_03" />
+
+        <TextView
+            android:id="@+id/lilac_lyrics_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:text="나리는 꽃가루에\n눈이 따끔해 아야\n눈물이 고여도 꾹 참을래\n내 마음 한켠
+            \n비밀스런 오르골에 넣어두고서\n영원히 되감을 순간이니까"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_title_name_tn_04" />
+
+
+        <TextView
+            android:id="@+id/lilac_lyrics_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:text="우리 둘의 마지막 페이지를\n잘 부탁해\n어느 작별이 이보다 완벽할까\nLove me only till this spring"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lilac_lyrics_01" />
+
+        <TextView
+            android:id="@+id/lilac_lyrics_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:text="우리 둘의 마지막 페이지를 잘 부탁해
+            \n어느 작별이 이보다 완벽할까
+            \nLove me only till this spring"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lilac_lyrics_02" />
+
+
+        <TextView
+            android:id="@+id/lilac_lyrics_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:text="오 라일락 꽃이 지는 날 goodbye
+            \n이런 결말이 어울려
+            \n안녕 꽃잎 같은 안녕
+            \n하이얀 우리 봄날의 climax
+            \n아 얼마나 기쁜 일이야"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lilac_lyrics_03" />
+
+        <TextView
+            android:id="@+id/lilac_lyrics_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:text="Ooh ooh
+            \nLove me only till this spring
+            \n봄바람처럼
+            \nOoh ooh
+            \nLove me only till this spring
+            \n봄바람처럼"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lilac_lyrics_04" />
+
+        <TextView
+            android:id="@+id/lilac_lyrics_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:text="기분이 달아 콧노래 부르네 (랄라)
+            \n입꼬리는 살짝 올린 채
+            \n어쩜 이렇게 하늘은 더 바람은 또 완벽한 건지
+            \n오늘따라 내 모습 맘에 들어"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lilac_lyrics_05" />
+
+        <TextView
+            android:id="@+id/lilac_lyrics_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:text="처음 만난 그날처럼 예쁘다고 말해줄래
+            \n어느 이별이 이토록 달콤할까
+            \nLove resembles misty dream"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lilac_lyrics_06" />
+
+        <TextView
+            android:id="@+id/lilac_lyrics_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:text="오 라일락 꽃이 지는 날 goodbye
+            \n이런 결말이 어울려
+            \n안녕 꽃잎 같은 안녕
+            \n하이얀 우리 봄날의 climax
+            \n아 얼마나 기쁜 일이야"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lilac_lyrics_07" />
+
+        <TextView
+            android:id="@+id/lilac_lyrics_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:text="Ooh ooh
+            \nLove resembles misty dream
+            \n뜬구름처럼
+            \nOoh ooh
+            \nLove resembles misty dream
+            \n뜬구름처럼"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lilac_lyrics_08" />
+
+        <TextView
+            android:id="@+id/lilac_lyrics_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_color"
+            android:textSize="15sp"
+            android:text="중략"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lilac_lyrics_09" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+</ScrollView>
